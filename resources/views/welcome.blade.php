@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Bienvenidos al inframundo
+                    Bienvenidos!!!!!!
                 </div>
 
                 <div class="links">
