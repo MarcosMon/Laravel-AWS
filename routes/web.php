@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tarea', function () {
+Route::get('/tarea/', function () {
     return view('tarea');
 });
