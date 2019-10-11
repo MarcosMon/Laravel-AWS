@@ -12,9 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('tarea');
+    return view('welcome');
 });
 
-Route::get('/tarea/', function () {
-    return view('tarea');
-});
+Route::get('ofertas/{nombre?}', 'pagesController@ofertas')->name('ofertas');
+
+
+Auth::routes();
