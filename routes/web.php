@@ -19,7 +19,7 @@ Route::get('/tarea', function () {
     return view('tarea');
 });
 
-Route::get('ofertas/{nombre?}', 'pagesController@ofertas')->name('ofertas');
+Route::get('ofertas/{nombre?}', 'PagesController@ofertas')->name('ofertas');
 
 
 Auth::routes();
