@@ -64,7 +64,7 @@
         </style>
     </head>
     <body>
-        
+
     <header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -92,8 +92,8 @@
 </nav>
     </header>
 
-    
-        
+
+
         <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
