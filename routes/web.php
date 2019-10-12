@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
-    return 'Hello';
+Route::get('/tarea', function () {
+    return view('tarea');
 });
 
 Route::get('ofertas/{nombre?}', 'pagesController@ofertas')->name('ofertas');
