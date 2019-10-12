@@ -1,7 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-class PagesController extends Controller
+class pagesController extends Controller
 {
 	//Llama al archivo welcome para que muestre su contenido
     public function inicio(){
