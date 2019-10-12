@@ -14,8 +14,8 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <!-- Random Code -->
     <?php
-         $random_string = rand(1,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . chr(rand(65,90)) 
-         . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90); 
+         $random_string = rand(1,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . chr(rand(65,90))
+         . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90);
          ?>
     <!-- Random Code -->
 </head>
@@ -26,7 +26,7 @@
         <header>
             <ul class="nav nav-tabs">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{route('home')}}">Home</a>
+                    <a class="nav-link"    >Homee</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -38,10 +38,13 @@
                 </li>
             </ul>
             <!-- Navigation Bar -->
+
+
         </header>
         <!-- Each Offer-->
         @if(!empty($nombre))
         <!-- Offer One -->
+
         @switch($nombre)
         @case($nombre=='Descuentos')
         <div class="container">
@@ -96,11 +99,11 @@
                         <img src="http://www.viatgesiluro.com/web_2.0/images/ofertas%20de%20verano/main.jpg"
                             class="card-img-top" alt="...">
                     </div>
-					
+
 					<img style = "width:22%; margin-left:120px;" src="https://en.toppng.com/public/uploads/preview/flecha-11549411357qvki7yvtws.png"
                             class="card-img-top" alt="...">
 					   <p
-                        style = "width:20%; margin-left:20%;color:brown; font-size: 20px;font-family: 'Helvetica Neue';border:inset;width:55%;" 
+                        style = "width:20%; margin-left:20%;color:brown; font-size: 20px;font-family: 'Helvetica Neue';border:inset;width:55%;"
                             class="card-img-top" alt="...">
                         Para conocer nuestras fantásticas ofertas tiene que Desplegar la pestaña
                         <strong>Ofertas</strong> de la parte superior.</p>
