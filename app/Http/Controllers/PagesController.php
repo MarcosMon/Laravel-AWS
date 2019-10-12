@@ -14,6 +14,13 @@ class PagesController extends Controller
 	
 	return view('ofertas',compact('listaOfertas','nombre'));
 	}
-
+	
+	//Asi tendria que usarse la funcion random, pero no logré coordinarla.
+	// public function numeroRandom(){
+	// $random_string = rand(1,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . chr(rand(65,90)) 
+	// . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90) . chr(rand(65,90)) . rand(65,90); 
+	
+	// return $random_string;
+	// }
 	
 }
